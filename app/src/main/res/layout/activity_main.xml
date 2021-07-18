@@ -55,6 +55,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_send_result"/>
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_recyclerview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Menampilkan RecyclerView"
+        app:layout_constraintTop_toBottomOf="@id/btn_navigation_component"
+        app:layout_constraintStart_toStartOf="@id/btn_navigation_component"
+        app:layout_constraintEnd_toEndOf="@id/btn_navigation_component"/>
+
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv_name"
         android:layout_width="wrap_content"
